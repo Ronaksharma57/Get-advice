@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#h1 {
+  background-color: aquamarine;
+  border: 1px solid transparent;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: SamsungOne, arial, sans-serif;
+}
+
+#btn {
+  margin-top: 50px;
+  border: 1px solid transparent;
+  padding: 20px;
+  font-size: 40px;
+  cursor: pointer;
+  font-weight: 900;
+  background-color: blueviolet;
+  border-radius: 10px;
+  color: white;
+  font-family: SamsungOne, arial, sans-serif;
+}
+p {
+  margin-top: 70px;
+  border: 1px solid transparent;
+  background-color: chartreuse;
+  font-weight: 900;
+  padding: 20px;
+  font-size: 40px;
+  border-radius: 10px;
+  font-family: SamsungOne, arial, sans-serif;
+}
